@@ -6,9 +6,10 @@
     <title>Deep Web Türkçe – Deep web ile ilgili güncel bilgi ve haberler</title>
     <meta name="description" content="Deep web türkçe linkler deep web forumları deep web siteleri">
     <link rel="canonical" href="https://deepwebturkcee.github.io/">
-
+	<link rel="icon" href="https://i.ibb.co/LD2J5JG9/Tor-Browser-icon-svg.png" type="image/x-icon" />
+    
     <style>
-        /* Genel stil */
+        /* Stiller (Değişiklik yok) */
         body {
             font-family: Arial, sans-serif;
             background-color: #0d0d0d;
@@ -17,67 +18,73 @@
             padding: 0;
             line-height: 1.6;
         }
-
         a {
             color: #00c8ff;
             text-decoration: none;
         }
-
         a:hover {
             text-decoration: underline;
         }
-
-        /* Header */
         header {
             background-color: #111;
             padding: 20px;
             text-align: center;
             border-bottom: 2px solid #00c8ff;
         }
-
         nav {
             margin-top: 10px;
         }
-
-        /* Main */
+        /* YENİ EKLENEN NAVİGASYON STİLLERİ */
+        nav ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li a {
+            font-weight: bold;
+            font-size: 1.1em;
+            padding: 5px 10px;
+        }
+        nav ul li a:hover {
+            background-color: #00c8ff;
+            color: #111;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        /* STİL SONU */
         main {
             max-width: 900px;
             margin: auto;
             padding: 30px 20px;
         }
-
         h1 {
             color: #00c8ff;
             text-align: center;
             margin-bottom: 20px;
         }
-
         h2 {
             color: #00bcd4;
             margin-top: 30px;
             margin-bottom: 10px;
         }
-
         p {
             margin-bottom: 15px;
         }
-
         ul {
             list-style-type: disc;
             margin-left: 20px;
         }
-
         strong {
             display: block;
             margin-top: 15px;
             font-size: 1.1em;
         }
-
         li {
             margin-bottom: 8px;
         }
-
-        /* Footer */
         footer {
             background-color: #111;
             padding: 15px;
@@ -85,17 +92,17 @@
             border-top: 2px solid #00c8ff;
             font-size: 14px;
         }
-
-        /* Mobil uyumlu */
         @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
             main {
                 padding: 20px 10px;
             }
-
             h1 {
                 font-size: 24px;
             }
-
             h2 {
                 font-size: 20px;
             }
@@ -106,7 +113,12 @@
 
     <header>
         <nav>
-            <!-- Menü buraya eklenebilir -->
+            <ul>
+                <li><a href="index.html">Ana Sayfa (Linkler)</a></li>
+                <li><a href="deep-web-nedir.html">Deep Web Nedir?</a></li>
+                <li><a href="tor-browser.html">Tor Browser</a></li>
+                <li><a href="guvenlik.html">Güvenlik İpuçları</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -116,7 +128,7 @@
 
         <section>
             <h2>Deep Web Türkçe Güncel Linkler 2025</h2>
-            <p>Sitelere Tor Browser ile girebilirsiniz. Tor Browser nasıl indirilir?</p>
+            <p>Sitelere Tor Browser ile girebilirsiniz. Tor Browser'ı nasıl kullanacağınızı öğrenmek için <a href="tor-browser.html">buraya</a> tıklayın.</p>
             <ul>
                 <strong>TorTurk Forum (güvenli, onaylandı)</strong>
                 <li><a href="#">http://turk5q7ziwt6krgcuxcw275k7ro224fznhsbuptobrystqzfpkgomlid.onion/</a></li>
@@ -127,8 +139,8 @@
         </section>
 
         <section>
-            <h2>Deep Web Türkçe Güncel Linkler 2025</h2>
-            <p>Tavsiye etmediklerimiz gerçek değildir, inanmayın; para kaybedersiniz.</p>
+            <h2>Uyarı</h2>
+            <p>Tavsiye etmediklerimiz gerçek değildir, inanmayın; para kaybedersiniz. Deep web üzerinde kimseye güvenmemelisiniz.</p>
         </section>
     </main>
 
